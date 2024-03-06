@@ -4,7 +4,7 @@ Our image warping-based method implements a highly robust motion transmission mo
 
 ## Approach
 
-![FDA-GAN](3.png)
+![FDA-GAN](model/FDA-AN.jpg)
 
 ## IPER datasets
 https://svip-lab.github.io/dataset/iPER_dataset.html

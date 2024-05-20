@@ -9,9 +9,18 @@ Our image warping-based method implements a highly robust motion transmission mo
 ## IPER datasets
 https://svip-lab.github.io/dataset/iPER_dataset.html
 
-## Updates
+## Installation
+### Environment Setup
+This repository has been tested on the following platform:
+Python 3.8.15, PyTorch 1.7.0 with CUDA 11.0 and cuDNN 8.0, Ubuntu 22.04
 
-Coming Soon
+To clone the repo, run either:
+```
+git clone --recursive https://github.com/mioyeah/FDA-GAN.git
 
+Next, you have to make sure that you have all dependencies in place.
+The simplest way to do so, is to use [anaconda](https://www.anaconda.com/). 
 
-
+```
+conda env create -f environment.yml -n my-env
+conda activate my-env

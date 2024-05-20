@@ -28,5 +28,5 @@ conda activate my-env
 
 ## Pre-trained Models
 Download the following models and place them in their correspoding directories:
-- [FDAGAN.pth](https://github.com/GuillaumeRochette/HumanViewSynthesis/releases/download/v0.0.1-alpha/Human36M.256x256.LPIPS.ckpt) in
+- [FDAGAN.pth]((https://drive.google.com/file/d/19_rbhSSDknZO4DnBU018uaW9QratNxbk/view?usp=drive_link)) in
 `assets/checkpoints/neural_reders`.

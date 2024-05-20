@@ -4,7 +4,7 @@ Our image warping-based method implements a highly robust motion transmission mo
 
 ## Approach
 
-![FDA-GAN]([https://github.com/mioyeah/FDA-GAN/data/FDA-GAN.jpg](https://github.com/mioyeah/FDA-GAN/blob/main/data/FDA-GAN.jpg))
+![FDA-GAN](https://github.com/mioyeah/FDA-GAN/blob/main/data/FDA-GAN.jpg)
 
 ## IPER datasets
 https://svip-lab.github.io/dataset/iPER_dataset.html
@@ -27,7 +27,7 @@ conda activate my-env
 
 ## Pre-trained Models
 Download the following models and place them in their correspoding directories:
-- [FDAGAN.pth]((https://drive.google.com/file/d/19_rbhSSDknZO4DnBU018uaW9QratNxbk/view?usp=drive_link)) in
+- [FDAGAN.pth](https://drive.google.com/file/d/19_rbhSSDknZO4DnBU018uaW9QratNxbk/view?usp=drive_link) in
 `assets/checkpoints/neural_reders`.
 
 ## Inference

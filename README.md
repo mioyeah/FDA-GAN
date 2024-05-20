@@ -29,3 +29,16 @@ conda activate my-env
 Download the following models and place them in their correspoding directories:
 - [FDAGAN.pth]((https://drive.google.com/file/d/19_rbhSSDknZO4DnBU018uaW9QratNxbk/view?usp=drive_link)) in
 `assets/checkpoints/neural_reders`.
+
+## Inference
+```
+python motiontransfer.py \
+      --gpu_ids 0 \
+      --image_size 512 \
+      --num_source 2 \
+      --output_dir "./results" \
+      --assets_dir "./assets" \
+      --model_id "Av37667655_2" \
+      --src_path "path?=./assets/samples/sources/fange_1/fange_1_ns=6,name?=fange_1_ns=6" \
+      --ref_path "path?=./assets/samples/references/Av37667655_2.mp4,name?=Av37667655_2,pose_fc?=300" 
+```

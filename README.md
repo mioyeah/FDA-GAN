@@ -21,7 +21,6 @@ git clone --recursive https://github.com/mioyeah/FDA-GAN.git
 Next, you have to make sure that you have all dependencies in place.
 The simplest way to do so, is to use [anaconda](https://www.anaconda.com/). 
 
-```
 conda env create -f environment.yml -n my-env
 conda activate my-env
 ```

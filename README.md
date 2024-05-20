@@ -24,3 +24,7 @@ The simplest way to do so, is to use [anaconda](https://www.anaconda.com/).
 ```
 conda env create -f environment.yml -n my-env
 conda activate my-env
+```
+
+## Pre-trained Models
+Download the following models and place them in their correspoding directories:
